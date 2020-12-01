@@ -63,7 +63,7 @@ let ctaTitle = ctaText.querySelector("h1");
 let buttonText = ctaText.querySelector("button");
 let ctaImage = document.querySelector("#cta-img");
 
-ctaTitle.textContent = "DOM Is Awesome";
+ctaTitle.innerHTML = "DOM <br> IS <br> AWESOME"
 buttonText.textContent = "Get Started";
 ctaImage.src = "img/header-img.png";
 
