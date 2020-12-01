@@ -144,3 +144,17 @@ document.querySelector("a").prepend(domLink);
 
 blogLink.style.color = "green";
 domLink.style.color = "green";
+
+let newButton = document.createElement("button");
+
+newButton.textContent = "Click Me!";
+document.querySelector(".cta-text").appendChild(newButton);
+
+newButton.onclick = function (event) {
+  newButton.style.color = "red";
+}
+
+newButton.addEventListener("click", event => {
+  buttonText.style.color = "green";
+})
+
