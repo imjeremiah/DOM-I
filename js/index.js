@@ -116,7 +116,7 @@ let phone = address.nextElementSibling;
 let email = phone.nextElementSibling;
 
 contactTitle.textContent = "Contact"
-address.textContent = "123 Way 456 Street Somewhere, USA";
+address.innerHTML = "123 Way 456 Street <br> Somewhere, USA";
 phone.textContent = "1 (888) 888-8888";
 email.textContent = "sales@greatidea.io";
 
